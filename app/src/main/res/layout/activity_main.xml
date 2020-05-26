@@ -33,7 +33,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="top|center"
         android:layout_marginLeft="10dp"
-        android:layout_marginTop="35dp"
+        android:layout_marginTop="30dp"
         android:layout_marginRight="10dp"
         android:text="Vos Magasins"
         android:textAlignment="center"
@@ -49,6 +49,8 @@
         android:layout_marginTop="150dp"
         android:layout_marginRight="10dp"
         android:layout_marginBottom="20dp"
+        android:background="@null"
+        app:cardBackgroundColor="@android:color/transparent"
         android:isScrollContainer="true" />
 
 

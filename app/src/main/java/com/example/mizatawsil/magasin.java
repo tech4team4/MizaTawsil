@@ -1,20 +1,30 @@
 package com.example.mizatawsil;
 
 public class magasin {
-    private String nom;
+    private String name, imageURL;
 
-    private magasin() {
+    public magasin() {
+
     }
 
-    public String getNom() {
-        return nom;
+    public String getName() {
+        return name;
     }
 
-    public void setNom(String nom) {
-        this.nom = nom;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public magasin(String nom) {
-        this.nom = nom;
+    public String getImageURL() {
+        return imageURL;
+    }
+
+    public void setImageURL(String imageURL) {
+        this.imageURL = imageURL;
+    }
+
+    public magasin(String name, String imageURL) {
+        this.name = name;
+        this.imageURL = imageURL;
     }
 }

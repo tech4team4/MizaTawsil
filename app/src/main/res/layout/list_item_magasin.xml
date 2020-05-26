@@ -7,38 +7,45 @@
     android:layout_marginLeft="10dp"
     android:layout_marginTop="8dp"
     android:layout_marginRight="10dp"
-    app:cardCornerRadius="20dp">
+    android:background="@null"
+    app:cardElevation="0dp"
+
+    app:cardBackgroundColor="@android:color/transparent"
+    app:cardCornerRadius="0dp">
 
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:background="@drawable/item_list_border"
-        android:padding="5dp">
-
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:src="@drawable/bg2"
-            android:scaleType="center"/>
+        android:layout_height="250dp"
+        android:background="@null"
+        android:padding="0dp">
 
         <LinearLayout
+            android:background="@null"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="horizontal">
+            android:orientation="vertical">
 
             <TextView
+                android:background="#C45F81"
                 android:id="@+id/text_view_magasin"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="Superette"
+                android:textColor="#ffffff"
                 android:textAlignment="center"
                 android:textSize="30sp" />
 
-
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitXY"
+                android:background="@null"
+                android:src="@drawable/bg2" />
         </LinearLayout>
 
     </RelativeLayout>
